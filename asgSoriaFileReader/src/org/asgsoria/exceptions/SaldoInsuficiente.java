@@ -11,7 +11,7 @@ package org.asgsoria.exceptions;
  */
 public class SaldoInsuficiente extends Exception{
     
-    SaldoInsuficiente(){
+   public SaldoInsuficiente(){
         super("El saldo de la cuenta es insuficiente para realizar la transsaccón");
     }
 }
